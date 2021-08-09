@@ -8,5 +8,5 @@ COPY go.sum .
 
 RUN GOOS=linux GOARCH=amd64 go build -ldflags '-w -s' -o /healthcheck /go/src/healthcheck/
 
-FROM alpine:3.14.0
+FROM alpine:3.14.1
 COPY --from=build /healthcheck /healthcheck
