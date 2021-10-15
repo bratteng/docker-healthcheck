@@ -1,12 +1,12 @@
-# bratteng/healthcheck-next
+# bratteng/healthcheck
 
-[![continuous-integration](https://github.com/bratteng/docker-healthcheck-next/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/bratteng/docker-healthcheck-next/actions/workflows/ci.yml)
-[![release](https://github.com/bratteng/docker-healthcheck-next/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/bratteng/docker-healthcheck-next/actions/workflows/release.yml)
+[![continuous-integration](https://github.com/bratteng/docker-healthcheck/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/bratteng/docker-healthcheck/actions/workflows/ci.yml)
+[![release](https://github.com/bratteng/docker-healthcheck/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/bratteng/docker-healthcheck/actions/workflows/release.yml)
 
 ```console
-docker pull bratteng/healthcheck-next:latest
+docker pull bratteng/healthcheck:latest
 ```
 
 ```console
-docker pull ghcr.io/bratteng/healthcheck-next:latest
+docker pull ghcr.io/bratteng/healthcheck:latest
 ```
