@@ -1,4 +1,4 @@
-module github.com/bratteng/docker-healthcheck-next
+module github.com/bratteng/docker-healthcheck
 
 go 1.16
 
