@@ -28,7 +28,7 @@ jobs:
 
       -
         name: Install cosign
-        uses: sigstore/cosign-installer@v1.3.0
+        uses: sigstore/cosign-installer@v1.3.1
 
       -
         name: Docker meta
