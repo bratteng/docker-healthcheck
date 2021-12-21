@@ -8,5 +8,5 @@ COPY go.sum .
 
 RUN go build -ldflags '-w -s' -o /healthcheck /go/src/healthcheck/
 
-FROM debian:11.1-slim
+FROM debian:11.2-slim
 COPY --from=build /healthcheck /healthcheck
