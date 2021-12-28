@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - name: Hadolint with reviewdog
-        uses: reviewdog/action-hadolint@v1.26
+        uses: reviewdog/action-hadolint@v1.27
 
   gobuild:
     name: Build Go
