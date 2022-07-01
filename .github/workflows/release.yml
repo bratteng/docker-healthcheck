@@ -33,7 +33,7 @@ jobs:
       -
         name: Docker meta
         id: docker_meta
-        uses: docker/metadata-action@v3
+        uses: docker/metadata-action@v4
         with:
           labels: |
             org.opencontainers.image.description=Healthcheck binary specific for Next.js [${{matrix.flavor}}]
